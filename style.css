@@ -35,3 +35,21 @@ button{
 .zero,.equal{
     width: 70px;
 }
+
+@media (max-width: 768px) {
+   button {
+    width: 20px;;
+    padding: 4px;
+    margin: 1px 2px;
+    }
+    #result{
+        width: 120px;
+        
+    }
+    #clear{
+        width: 120px;
+    }
+    .zero,.equal{
+        width: 50px;
+    }
+}
