@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    border: 2px solid gray;
+    margin: 10px auto;
+    border-top-left-radius:3px ;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 6px;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 170px;
+}
+#result{
+    width: 155px;
+    color: black;
+}
+#clear{
+    width: 150px;
+}
+button,#result,#clear{
+    color:rgb(150, 142, 142)
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+button{
+    width: 30px;;
+    padding: 4px;
+    margin: 1px 3px;
+}
+.zero,.equal{
+    width: 70px;
+}

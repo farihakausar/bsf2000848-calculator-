@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="apple-calculator.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="data.js"></script>
+    <title>BASIC Calculator</title>
+  </head>
+  <body>
+    <div class="main">
+      <div >
+        <input type="text" id="result" />
+      </div>
+      <div >
+        <button id="clear" onclick="clearresult()">C</button>
+      </div>
+      <div>
+      <button onclick="shownumber('7')">7</button>
+      <button onclick="shownumber('8')">8</button>
+      <button onclick="shownumber('9')">9</button>
+      <button onclick="shownumber('*')">x</button>
+
+    </div>
+    <div>
+        <button onclick="shownumber('4')">4</button>
+        <button onclick="shownumber('5')">5</button>
+        <button onclick="shownumber('6')">6</button>
+        <button onclick="shownumber('-')">-</button>
+  
+      </div>
+      <div>
+        <button onclick="shownumber('1')">1</button>
+        <button onclick="shownumber('2')">2</button>
+        <button onclick="shownumber('3')">3</button>
+        <button onclick="shownumber('+')">+</button>
+  
+    </div> 
+    <div><button onclick="shownumber('0')" class="zero">0</button>
+        <button  onclick="equalresult()"class="equal">=</button>
+        
+  
+      </div>
+    </div>
+  
+  </body>
+</html>
